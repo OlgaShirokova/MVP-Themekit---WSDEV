@@ -1,0 +1,1155 @@
+{
+  "current": {
+    "color_text": "#3d4246",
+    "color_body_text": "#69727b",
+    "color_sale_text": "#00564e",
+    "color_borders": "#e8e9eb",
+    "color_button": "#00564e",
+    "color_button_text": "#fff",
+    "color_small_button": "#fff",
+    "color_small_button_text": "#3d4246",
+    "color_text_field": "#ffffff",
+    "color_text_field_text": "#262626",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": 25,
+    "color_body_bg": "#ffffff",
+    "type_header_family": "Google_Montserrat_400_sans",
+    "type_header_base_size": 27,
+    "type_base_family": "Google_Crimson+Text_400_serif",
+    "type_base_size": 16,
+    "type_bold_product_titles": true,
+    "share_image": "shopify:\/\/shop_images\/SHARE.png",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/BeboldAura\/",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/bebold_aura\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/Favicon_555.png",
+    "recurring-orders-loading": "Loading subscription info...",
+    "recurring-orders-inherit-classes": false,
+    "recurring-orders-additional-button-classes": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_111.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#ff7b81",
+    "checkout_button_color": "#00564e",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Logo_111.png",
+          "logo_max_width": 95,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "We are about to launch! Subscribe to become part of Aura and receive something special when we launch!",
+          "message_link": "",
+          "color_bg": "#7796a8",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-11-30_at_16.41.26.png",
+          "alignment": "center",
+          "title": "Embrace your essence",
+          "text": "<p>Design your personal care box and <br>transform your next period for the better.<\/p>",
+          "hero_size": "large",
+          "text_size": "large",
+          "button_label": "Try Aura ▸",
+          "button_link": "shopify:\/\/pages\/design-your-box"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/becca-tapert-357541-unsplash.jpg",
+              "alignment": "center",
+              "title": "\" Aura opened a whole new world for me!",
+              "subheading": "This is unbelievable, I am simply in love with Aura! \"",
+              "link": ""
+            }
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brooke-cagle-39570-unsplash.jpg",
+              "alignment": "center",
+              "title": "\"I couldn't imagine my period would become that nice one day!",
+              "subheading": "I have everything that I can think of delivered right to me exactly when I need it! And the treats and the small details inside the box... They just make you feel so empowered! Go girls!! \"",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1"
+        ],
+        "settings": {
+          "autoplay": true,
+          "autoplay_speed": 7,
+          "slideshow_height": "small",
+          "text_size": "medium"
+        }
+      },
+      "featured-collections": {
+        "type": "collection",
+        "settings": {
+          "title": "Most Beloved Boxes",
+          "collection": "frontpage",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
+          "layout": "left",
+          "title": "We deserve it",
+          "text": "<p>Aura is here to change the experience of the period forever. <br>We bring you variety of the best products for your sensitive days and deliver them to your doorstep in a beautiful box together with extra treats and a burst of motivation and excitement, all of this tailor made for you and your period. <br>Because you deserve it.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_linklist": "footer",
+          "footer_linklist_two": "",
+          "footer_newsletter_enable": false,
+          "show_payment_icons": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": true,
+          "enable_payment_button": false,
+          "show_share_buttons": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1538148404751": {
+            "type": "collection",
+            "settings": {
+              "collection": "all-products"
+            }
+          }
+        },
+        "block_order": [
+          "1538148404751"
+        ],
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 2
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": false,
+          "blog_show_date": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": false,
+          "blog_show_date": false,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "1538148722141": {
+        "type": "logo-bar",
+        "blocks": {
+          "1538148722141-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eco_by_naty_logo_2_1_1_1_1_1_3_3_2_2_1.jpg",
+              "link": ""
+            }
+          },
+          "1538148722141-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/always-logo-png-always-logo-515.png",
+              "link": ""
+            }
+          },
+          "1538148722141-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "link": ""
+            }
+          },
+          "1538148722141-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OB-LOGO.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1538148722141-0",
+          "1538148722141-1",
+          "1538148722141-2",
+          "1538148722141-3"
+        ],
+        "settings": {
+          "title": "Some of our brands"
+        }
+      },
+      "1538148755753": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "Subscribe to our newsletter",
+          "subheading": "Special offers, inspirational articles and interviews, interesting facts, community activities. Don't miss out!",
+          "show_background": true
+        }
+      },
+      "custom-collections1": {
+        "type": "custom-collections1",
+        "settings": {
+          "title": "Common Brands - Comfort Boxes",
+          "collection": "common-brands-comfort-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections2": {
+        "type": "custom-collections2",
+        "settings": {
+          "title": "Eco Brands - Comfort Boxes",
+          "collection": "eco-brands-comfort-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections3": {
+        "type": "custom-collections3",
+        "settings": {
+          "title": "Common Brands - Extra Boxes",
+          "collection": "common-brands-extra-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections4": {
+        "type": "custom-collections4",
+        "settings": {
+          "title": "Eco Brands - Extra Boxes",
+          "collection": "eco-brands-extra-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-content": {
+        "type": "custom-content",
+        "blocks": {
+          "1538498742807": {
+            "type": "text",
+            "settings": {
+              "title": "We are Aura.",
+              "text": "<p>Our purpose is to transform the period for the better. To transform it into a more pleasant experience for every woman, every month. Through self-care, hand-selected treats, inspirational words and professional advice, women can begin to live positive change and embrace the essence of our being.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1538498742807"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-content2": {
+        "type": "custom-content2",
+        "blocks": {
+          "1538558535226": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "collectionref2": "",
+              "text": "<p>Here you can find all the details regarding our period products.<br>Choose knowing exactly what you are choosing.<br><br><br><\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "1538558707596": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eco_by_naty_logo_2_1_1_1_1_1_3_3_2_2_1.jpg",
+              "link": "",
+              "collectionref": "naty",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538558750651": {
+            "type": "text",
+            "settings": {
+              "title": "ECO by Naty - Pads and Tampons",
+              "collectionref2": "naty",
+              "text": "<p>&bull; Ecologycal and sustainable brand, originally swedish.&nbsp;<br>&bull;&nbsp;100% GOTS certified organic cotton<br>&bull; Biodegradable &amp; compostable<br>&bull; 100% Totally chlorine free<\/p>\n<p>No plastics. No rayon. No dyes. No bleach or chemicals used. No worries<br>Ultra-absorbent, organic cotton tampons from our award-winning women&rsquo;s care line for minimal flow days. Eco by Naty&rsquo;s tampons look and work like other tampons but the experience of wearing ecological tampons without petroleum-based plastics or synthetic fibers against your skin will tell you all you need to know. Fully compostable and free from chemicals that can irritate sensitive pH balances, our tampons are designed to work in harmony with women&rsquo;s bodies and the environment; not against.<br><br><\/p>",
+              "width": "66%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1538559585033": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "link": "",
+              "collectionref": "masmi",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538559602658": {
+            "type": "text",
+            "settings": {
+              "title": "Masmi - Tampons and Pads",
+              "collectionref2": "masmi",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your storeUse this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1538564921883": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OB-LOGO.jpg",
+              "link": "wfwefwef",
+              "collectionref": "o-b",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538563811460": {
+            "type": "text",
+            "settings": {
+              "title": "o.b. - Tampons and Pads",
+              "collectionref2": "o-b",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1538558535226",
+          "1538558707596",
+          "1538558750651",
+          "1538559585033",
+          "1538559602658",
+          "1538564921883",
+          "1538563811460"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-collections-prod1": {
+        "type": "custom-collections-prod1",
+        "settings": {
+          "title": "Pads & Tampons",
+          "collection": "pads-tampons",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod2": {
+        "type": "custom-collections-prod2",
+        "settings": {
+          "title": "Innovative Tampons",
+          "collection": "innovative-tampons",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod3": {
+        "type": "custom-collections-prod3",
+        "settings": {
+          "title": "Salvaslips",
+          "collection": "salvaslips",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod4": {
+        "type": "custom-collections-prod4",
+        "settings": {
+          "title": "Cleansing",
+          "collection": "cleansing",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod5": {
+        "type": "custom-collections-prod5",
+        "settings": {
+          "title": "Care",
+          "collection": "care",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod6": {
+        "type": "custom-collections-prod6",
+        "settings": {
+          "title": "Health",
+          "collection": "health",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod7": {
+        "type": "custom-collections-prod7",
+        "settings": {
+          "title": "Sex Life",
+          "collection": "sex-life",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-shop1": {
+        "type": "custom-collections-shop1",
+        "settings": {
+          "title": "",
+          "collection": "shop-add-on",
+          "grid": 4,
+          "rows": 5,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "hero-about": {
+        "type": "hero-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/About_header_croped.jpg",
+          "alignment": "bottom",
+          "title": "AURA.",
+          "text": "<p>Our purpose. Our vision. Our values.<\/p>",
+          "hero_size": "large",
+          "text_size": "large",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "Subscribe to our newsletter",
+          "subheading": "Special offers, inspirational articles and interviews, interesting facts, community activities. Don't miss out!",
+          "show_background": true
+        }
+      },
+      "1540966980110": {
+        "type": "hero-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Steps6.png",
+          "alignment": "center",
+          "title": "",
+          "text": "",
+          "hero_size": "large",
+          "text_size": "medium",
+          "button_label": "Try Now!",
+          "button_link": "shopify:\/\/pages\/design-your-box"
+        }
+      },
+      "1540972145502": {
+        "type": "hero-about",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_2_a9617c8d-2275-446e-89ab-b5f6c3acbc44.png",
+          "alignment": "center",
+          "title": "We deserve it",
+          "text": "<p>Aura is here to change the experience of the period forever.&nbsp;<br>We bring you variety of the best products for your&nbsp;menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br>Because you deserve it.<\/p>",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1540972304102": {
+        "type": "hero-about",
+        "disabled": true,
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "",
+          "text": "",
+          "hero_size": "small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1541392864325": {
+        "type": "image-bar",
+        "blocks": {
+          "1541392864325-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-111.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541392864325-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-2_83cd668c-e30a-4040-914d-f1616bf52c41.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541392864325-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-3_d7692c30-c2c6-4ffb-ad64-7ed8a61f89ee.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1541392864325-0",
+          "1541392864325-1",
+          "1541392864325-2"
+        ],
+        "settings": {
+          "section_height": "x-small"
+        }
+      },
+      "1541424243404": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "1541424243404-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2018-11-05_at_18.43.01.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541424243404-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2018-11-05_at_18.42.51.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1541424243404-0",
+          "1541424243404-1"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "1541433254311": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Box2.png",
+          "layout": "left",
+          "title": "Because you deserve better.",
+          "text": "<p><br><strong>AURA is specially tailored to your personal needs and delivered every month at your doorstep.<\/strong> <br>&nbsp;<br>With a wide range of high-quality options in stock, each AURA box includes the feminine care products of your choice. Complemented with hand-picked goodies and learning materials, your AURA box will make you feel amazing during your period.<\/p>\n<p><strong>AURA subscriptions are flexible and convenient to promise you exactly what you need, when you need it most.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row1": {
+        "type": "custom-feature-row1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard_d4e1dba0-f0e1-4f27-93ad-063f276d7208.png",
+          "layout": "left",
+          "title": "Always - Pads",
+          "text": "<p>Aways is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1983 Always is widely used by women in many countries, including US, UK and others. Always pads are known for being comfortable, reliable and universal. The pads are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in Always pads that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. This brand follows the requirements of the US market, where pads are medical devices and are required to meet the safety expectations of the U.S. Food and Drug Administration (FDA).&nbsp;<\/p>\n<p><\/p>\n<p><strong>Always Ultra pads have the following characteristics:<\/strong><br>&bull; Neutralize odor Stay well adjusted to panties <br>&bull;Use own technology to improve protection <br>&bull; Are comfortable for wearing<br>&bull; Soft touch <br>&bull; Main complaints: related to protection and breaking when trying to remove the pad from the panties<\/p>\n<p><\/p>\n<p><strong>Always Ultra pads are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Top Sheet: Polyolefins (also used in clothing) with&nbsp;petrolatum and zinc oxide (also used&nbsp;in skin lotions)<br>&bull; Absorbent Core: Wood cellulose&nbsp;with&nbsp;absorbent gel, rayon, or polyester <br>&bull; Back Sheet: Polyolefins (also used in clothing) <br>&bull; Adhesives: Food additive adhesive (similar to craft glue sticks) <br>&bull; Wrapper: Printed polyolefin&nbsp;(also used in clothing) and paper<br>&bull; Wing paper: Printed paper<\/p>\n<p><\/p>\n<p>Always is a brand very well known and trusted all over the world. Making a conclusion out of numerous reviews the general impression of Always pads is good, they meet women&rsquo;s expectations and do their job nicely. Note that this product is not biodegradable and does contain chemical elements, which may or may not&nbsp;grant additional protection and flexibility.<\/p>\n<p><\/p>\n<p><strong>We recommend Always pads to women who look for a universal, comfortable and reliable solution widely used around the world, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row2": {
+        "type": "custom-feature-row2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard2.png",
+          "layout": "left",
+          "title": "Evax - Pads",
+          "text": "<p>Evax is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1968 Evax is widely used by women in its focus market, Spain. Evax pads are known for being reliable, soft and universal. The pads are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in Evax pads that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. All their products go through a rigorous safety evaluation and dermatological tests to ensure they can be used safely and should not cause skin irritation or an allergic reaction, don't affect the intimate pH or microflora, and don't increase the risk of infections. Evax production processes follow the international standard&nbsp;ISO 9001.<\/p>\n<p><\/p>\n<p><strong>Evax Cottonlike pads have the following characteristics:<br><\/strong>&bull; Neutralize odor Delicate protection <br>&bull; Stay well adjusted to panties<br>&bull; Use own technology to improve protection <br>&bull; Soft touch<br>&bull; Main complaints: related to protection, comfort and sensation of wearing<\/p>\n<p><\/p>\n<p><strong>Evax Cottonlike pads are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Top Sheet: Polyolefins (like those used in clothing)&nbsp;<br>&bull; Absorbent Core: Wood cellulose&nbsp;with&nbsp;absorbent gel, rayon, or polyester <br>&bull; Back Sheet: Polyolefins (like those used in clothing) <br>&bull; Adhesives: Food additive adhesive (similar to craft glue sticks)<br>&bull; Wrapper: Printed polyolefin&nbsp;(like that used in clothing)<br>&bull; Wing paper: Printed paper<\/p>\n<p><\/p>\n<p>Evax is a brand very well known and trusted in Spain. Making a conclusion out of numerous reviews the general impression of Always pads is good, they meet women&rsquo;s expectations and make them feel good. Note that this product is not biodegradable and does contain chemical elements, which may or may not grant additional protection and flexibility.<\/p>\n<p><\/p>\n<p><strong>We recommend Evax pads to women who look for a universal, soft and reliable solution widely used in the region, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row3": {
+        "type": "custom-feature-row3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard5.png",
+          "layout": "left",
+          "title": "Farmaconfort - Pads and Tampons",
+          "text": "<p>Farmaconfort is a brand developed in Spain and specialising on development and manufacturing of female hygiene products made from pure natural cotton fibres. Their own advanced technologies and knowledge is being used to produce all natural products with natural benefits of pure cotton. Farmaconfort tampons and pads are loved for being ecological, sustainable, comfortable and soft. All Farmaconfort organic products have ISO 9001:2002 and ISO 13485 certificates and have the National Pharmacy Code. Their products have been also tested as Hypoallergenic &lsquo;non irritant&rsquo; by external labs and are said to reduce the risks of irritation and allergy. Farmaconfort products are also 100% biodegradable and their manufacturing process is beneficial for the planet due to the positive impact of cotton plantations.<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Pads have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly<br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent <br>&bull; Thin and discreet <br>&bull; Main complaints: related to adherence to panties and comfort<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Coversheet: Cotton, non-woven, with special interlace to stop fibres sticking on your skin <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Tampons have the following characteristics:<br>&bull;&nbsp;<\/strong>Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent &bull; Compact size <br>&bull; Main complaints: related to fragile individual packaging and extra high absorption<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Security veil: Cotton, stops the fibres sticking inside women&rsquo;s body <br>&bull; Applicator: 100% biodegradable cardboard <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p>Farmaconfort is a modern, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Farmaconfort tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% biodegradable, sustainable and ecological. Gynaecologists, midwives and obstetricians recommend the use of natural cotton products for your intimate hygiene and female health.<\/p>\n<p><\/p>\n<p><strong>We recommend Farmaconfort pads and tampons to women who look for an ecological, sustainable, locally produced, soft and efficient solution, those who take care of their intimate health and want an extra healthy solution, and especially those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row4": {
+        "type": "custom-feature-row4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard4.png",
+          "layout": "left",
+          "title": "Masmi - Pads and Tampons",
+          "text": "<p>Masmi is a brand developed in Spain and specialising on development and manufacturing of female hygiene products made from pure natural cotton fibres. Their own advanced technologies and knowledge is being used to produce all natural products with natural benefits of pure cotton. Masmi tampons and pads are loved for being ecological, sustainable, comfortable and soft. All Masmi organic products have been certified by ICEA&nbsp;(Environmental and Ethical Certification Institute), GOTS&nbsp;(Global Organic Standard) and ISO 9001:2008. Their products have been also tested as Hypoallergenic &lsquo;non irritant&rsquo; by external labs and are said to reduce the risks of irritation and allergy. Masmi products are also 100% biodegradable and their manufacturing process is beneficial for the planet due to the positive impact of cotton plantations.<\/p>\n<p><\/p>\n<p><strong>Masmi Pads have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Comfortable to use <br>&bull; Thin and flexible <br>&bull; Main complaints: related to adherence to panties and reliability with strong flow<\/p>\n<p><\/p>\n<p><strong>Masmi Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton<br>&bull; Coversheet: Cotton, non-woven, with special interlace to stop fibres sticking on your skin<br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p><strong>Masmi Tampons have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Comfortable to use <br>&bull; Compact size <br>&bull; Main complaints: related to reliability with strong flow and ease of introduction<\/p>\n<p><\/p>\n<p><strong>Masmi Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br>&bull;&nbsp;<\/strong>Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Security veil: Cotton, stops the fibres sticking inside women&rsquo;s body <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p>Masmi is a young, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Masmi tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% biodegradable, sustainable and ecological. Gynaecologists, midwives and obstetricians recommend the use of natural cotton products for your intimate hygiene and female health.<\/p>\n<p><\/p>\n<p><strong>We recommend Masmi pads and tampons to women who look for an ecological, sustainable, locally produced, soft and efficient solution, those who take care of their intimate health and want an extra healthy solution, and especially those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row5": {
+        "type": "custom-feature-row5",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard6.png",
+          "layout": "left",
+          "title": "Naty - Pads and Tampons",
+          "text": "<p>Naty is a brand developed in Sweden and specialising on development and manufacturing of diapers and female hygiene products made from natural, ecological and renewable materials. Naty tampons and pads are loved for being ecological, sustainable, comfortable and soft. Eco by Naty&rsquo;s deliver ecological products without petroleum-based plastics or synthetic fibers against your skin. Fully natural, renewable and free from chemicals that can irritate sensitive pH balances, pads and tampons are designed to work in harmony with one&rsquo;s body and the environment. Their femcare line is certified by Vincotte, an independent, international certification organization specialised in renewability of raw materials, and is certified for the renewability of its products in accordance with ASTM D6866. It also applies both European and North American standards. Their tampons are also GOTS and ICEA certified.<\/p>\n<p><\/p>\n<p><strong>Naty Pads have the following characteristics:<br><\/strong>&bull;<strong>&nbsp;<\/strong>Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly<br>&bull; Cloth-like feel <br>&bull; Reliable and strongly absorbent &bull; Thin and discreet <br>&bull; Main complaints: related to smaller size and comfort<\/p>\n<p><\/p>\n<p><strong>Naty Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br>&bull;&nbsp;<\/strong>Viscose: Totally Chlorine Free (TCF) Pulp, no binders, 100% compostable <br>&bull; Absorbent core: chlorine free pulp, no binders, 100% biodegradable<br>&bull; Acquisition layer: chlorine free pulp, 100% biodegradable <br>&bull; Back Sheet: natural cornstarch film, 100% compostable <br>&bull; Individual packaging: LDPE plastic, recyclable <br>&bull; External box: FSC certified cardboard <br>&bull; Free of perfume, oil based superabsorbent, latex and chemicals<\/p>\n<p><\/p>\n<p><strong>Naty Tampons have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent <br>&bull; Compact size <br>&bull; Main complaints: related to introduction difficulties and reliability with strong flow<\/p>\n<p><\/p>\n<p><strong>Naty Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br><\/strong>&bull;<strong>&nbsp;<\/strong>Absorbent Core: 100% organic cotton <br>&bull; Applicator: 100% recycled cardboard <br>&bull; Individual packaging: paper-based <br>&bull; External box: FSC certified cardboard <br>&bull; Free of perfume, oil based superabsorbent, latex and chemicals<\/p>\n<p><\/p>\n<p>Naty is a modern, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Naty tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% compostable, sustainable and ecological.<\/p>\n<p><\/p>\n<p><strong>We recommend Naty pads and tampons to women who look for an ecological, sustainable, responsible, soft and efficient solution, to those who take care of their intimate health and want an extra healthy solution, and especially to those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row6": {
+        "type": "custom-feature-row6",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard1.png",
+          "layout": "left",
+          "title": "o.b. - Tampons",
+          "text": "<p>o.b. is a brand of the multinational Johnson&amp;Johnson based in the US and producing pharmaceutical, medical and beauty products. Since 1960s o.b. is widely used by women in countries such as the US, European countries and Russia. o.b. tampons are known for being reliable, soft and comfortable. The tampons are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in o.b. tampons that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. All their products go through a rigorous safety evaluation to ensure they can be used safely and should not cause skin irritation or an allergic reaction.&nbsp;<\/p>\n<p><\/p>\n<p><strong>o.b. tampons with and without applicator have the following characteristics:<br><\/strong>&bull; Use own technology for improves protection <br>&bull; Soft touch <br>&bull; Reliability and strong materials<br>&bull; Easy to use <br>&bull; Main complaints: related to protection and absence of applicator in o.b. ProComfort Series<\/p>\n<p><\/p>\n<p><strong>o.b. tampons are purified using an elemental chlorine-free purification process and contain the following ingredients:<\/strong><\/p>\n<p>o.b.&reg; tampons are made of two types of rayon and a polyester string. The cover for o.b. Original is made of polyester\/polyethylene non-woven material. The cover of o.b. ProComfort is made of polyethylene\/polypropylene film.<\/p>\n<p><\/p>\n<p>o.b. is a brand very well known and trusted across the world. Making a conclusion out of numerous reviews the general impression of o.b. tampons is very good, they make women feel good and do their job well. Note that this product is not biodegradable and does contain chemical elements, which may or may not grant additional protection and flexibility. Johnson&amp;Johnson is implementing measures for environment friendliness, 90% their of raw materials used for o.b. tampons come from renewable resources.<\/p>\n<p><\/p>\n<p><strong>We recommend o.b. pads to women who look for a soft, reliable and efficient solution, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row7": {
+        "type": "custom-feature-row7",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard3.png",
+          "layout": "left",
+          "title": "Tampax - Tampons",
+          "text": "<p>Tampax is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1931 Always is widely used by women in over 100 countries. Tampax tampons are known for being universal and reliable. The tampons are made from the same materials as most other feminine care products on the market, the primary ingredients used include purified cotton (plant-based ingredient treated for usage) and rayon (manufactured&nbsp;fiber&nbsp;made from regenerated&nbsp;cellulose fiber). All ingredients are accepted by physicians, scientists and health authorities, proven and completely safe for use in feminine products,<\/p>\n<p><\/p>\n<p><strong>Tampax Compak Pearl tampons have the following characteristics:<br><\/strong>&bull; Use own technology to improve protection <br>&bull; Easy introduction <br>&bull; Comfortably expand inside <br>&bull; Soft touch <br>&bull; Main complains: related to applicator and breaking after long use<\/p>\n<p><\/p>\n<p><strong>Tampax Compak Pearl tampons are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Applicator: Plastic with pigments for color <br>&bull; Absorbent Core: Cotton and\/or Rayon of varying levels optimized for performance <br>&bull; Thin Fabric around Absorbent Core: Polyethylene and Polypropylene <br>&bull; String: Cotton with Polypropylene <br>&bull; Braid Thread: Polyester<\/p>\n<p><\/p>\n<p>Tampax is a brand very well known and trusted all over the world. Making a conclusion out of numerous reviews the general impression of Tampax tampons is good, they meet women&rsquo;s expectations and do their job nicely. Note that this product is not ecological, it cannot be recycled or flushed and it contains chemical elements, which may or may not grant additional protection.<\/p>\n<p><\/p>\n<p><strong>We recommend Tampax tampons to women who look for a universal, comfortable and reliable solution widely used around the world, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about1": {
+        "type": "feature-row-about1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
+          "layout": "left",
+          "title": "What we create.",
+          "text": "<p>AURA delivers personalised subscription boxes for your period.<\/p>\n<p><\/p>\n<p>Each box comes with recognised femenine care products (organic options included), as well as hand-selected goodies, complements and surprise treats to enhance the overall experience of the period.<\/p>\n<p><\/p>\n<p>AURA welcomes women to come together and draw support from a community of like-minded individuals, both online and offline.&nbsp;We provide&nbsp;expert advice and empowering knowledge and blog posts to guide women before, during and after their period.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about2": {
+        "type": "feature-row-about2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/jean-gerber-42024_copy.jpg",
+          "layout": "right",
+          "title": "What inspired AURA.",
+          "text": "<p>The period affects a great majority of women, and yet little support is given about the monthly cycle.<\/p>\n<p><\/p>\n<p>Until now, the period has been reduced to the limited selection of products, lack of education, women's health risks, stigmas and overall hassle.<\/p>\n<p><\/p>\n<p>But, it doesn't have to be like this. Why? Because we deserve better.<\/p>\n<p><\/p>\n<p>AURA aims to explore beyond the status quo and boldly transform the period into a healthier, more uplifting experience. It&nbsp;strives to redefine the period in such a way that every woman feels the freedom, curiousity and confidence to take hold of a better way of living.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about3": {
+        "type": "feature-row-about3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/joey-thompson-63366-unsplash_copy.jpg",
+          "layout": "left",
+          "title": "From AURA to YOU.",
+          "text": "<p>For the&nbsp;life lovers, the unstoppable explorers, caring mothers, hard workers, inspired creators, youthful girls, change seekers, loving girlfriends, restless souls.<\/p>\n<p><\/p>\n<p>From women to women, we are here for all of you. Because we are all different, our bodies and souls are different, and our periods are different too. This is why Aura is your personal space for a better period. No matter how different we are, every period is a gift and now we can finally embrace it!<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about4": {
+        "type": "feature-row-about4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/19984051_10154495514306831_5072486697736021294_o.jpg",
+          "layout": "right",
+          "title": "Our Story",
+          "text": "<p>Aura was born in 2018 when I felt that something about my female self was not right, I realised it was because of my period, which I only hoped to be over quickly. It was a source of worry, I didn't enjoy any of it, I was not happy with the products and the stores, I was down. And I knew I was not alone, so many of us feel the same. I thought is there something I can do about it? And I created Aura. For all of us, for every period to become special.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about5": {
+        "type": "feature-row-about5",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/jamakassi-592666-unsplash.jpg",
+          "layout": "left",
+          "title": "Our Promise to You",
+          "text": "<p>AURA is here to become your one-stop-shop&nbsp;for intimate hygiene and period related needs.<\/p>\n<p>We are here to revolutionise the period and turn it into&nbsp;a special experience full of joy, confidence and freedom.<\/p>\n<p><\/p>\n<p>We provide you with the best products, exciting surprises, a caring community and expert advice. Once you join AURA, you will never be alone. You can always count on us and we will make sure you always feel&nbsp;like the star you are.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1543829456207": {
+        "type": "quotes",
+        "blocks": {
+          "1543829456207-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Aura opened a whole new world for me! This is unbelievable, I am simply in love with Aura!<\/p>",
+              "author": "Pia"
+            }
+          },
+          "1543829456207-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I couldn't imagine my period would become that nice one day! Simply love it! Go girls!!<\/p>",
+              "author": "Natalia"
+            }
+          },
+          "1543829456207-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Everything&nbsp;I need for my period! And the treats inside the box... They just make you feel so empowered!<\/p>",
+              "author": "Mireia"
+            }
+          }
+        },
+        "block_order": [
+          "1543829456207-0",
+          "1543829456207-1",
+          "1543829456207-2"
+        ],
+        "settings": {
+          "title": "HAPPY WOMEN"
+        }
+      },
+      "1549019724264": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "section_title": "Any doubts? Here we try to solve them!",
+          "text": "<p><strong>How much are the boxes?<\/strong><br>The boxes cost from 9 to 21 depending. Without any permanency, you can cancel even after the first order and try it as a one-time thing!<br><br><strong>What will I get in my box?<\/strong><br>You will get all the hygiene products you need and several wellness products to feel yourself beautiful<br><br><strong>How do I personalize my box?&nbsp;<\/strong><br>You seleect your hygiene products yourself! And for the best personalisation of wellness products fill in your profile and we will deliver you tailored products only for you!&nbsp;<br><br><strong>When will I get my box?&nbsp;<\/strong><br>You program the delivery! Just choose the date you prefer from the calendar! We recommend you to think of your next period, subtract 3 days to have a margin and voila, you have your delivery date to match your cycle!<br><br><a href=\"https:\/\/aurabox.co\/apps\/help-center\" title=\"https:\/\/aurabox.co\/apps\/help-center\">For more doubts visit our<\/a><span style=\"text-decoration: underline;\"><strong><a href=\"https:\/\/aurabox.co\/apps\/help-center\" title=\"https:\/\/aurabox.co\/apps\/help-center\"> Help Center!<\/a><\/strong><\/span><\/p>",
+          "text_size": "medium"
+        }
+      }
+    },
+    "content_for_index": [
+      "hero",
+      "1541433254311",
+      "1540972145502",
+      "1540966980110",
+      "feature-row",
+      "1541392864325",
+      "1540972304102",
+      "featured-collections",
+      "slideshow",
+      "1543829456207",
+      "1538148722141",
+      "1549019724264",
+      "1538148755753",
+      "1541424243404"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button": "#fff",
+      "color_small_button_text": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 25,
+      "color_body_bg": "#fff",
+      "type_header_family": "Google_Work+Sans_600_sans",
+      "type_header_base_size": 26,
+      "type_base_family": "Google_Work+Sans_400_sans",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_linklist_two": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button": "#eaeaea",
+      "color_small_button_text": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 30,
+      "color_body_bg": "#f8f8f8",
+      "type_header_family": "Google_Muli_600_sans",
+      "type_header_base_size": 26,
+      "type_base_family": "Google_Muli_600_sans",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "autoplay": true,
+            "autoplay_speed": 6,
+            "slideshow_height": "medium",
+            "text_size": "medium"
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "settings": {
+            "footer_linklist": "main-menu",
+            "footer_linklist_two": "footer",
+            "footer_newsletter_enable": true,
+            "show_payment_icons": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

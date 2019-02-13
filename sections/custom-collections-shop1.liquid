@@ -1,0 +1,167 @@
+<!-- CUSTOM COLLECTION 1 FOR ADD ON PRODUCTS FROM THE SHOP -->
+<div class="page-width">
+  {% if section.settings.title != blank %}
+    <div class="section-header text-center">
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+  {% endif %}
+
+  {%- assign collection = collections[section.settings.collection] -%}
+  <div style="text-align:center; padding-bottom:0px;">{{collection.description}}</div>
+  {% case section.settings.grid %}
+    {% when 2 %}
+      {%- assign max_height = 530 -%}
+      {%- assign grid_item_width = 'medium-up--one-half' -%}
+    {% when 3 %}
+      {%- assign max_height = 345 -%}
+      {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
+    {% when 4 %}
+      {%- assign max_height = 250 -%}
+      {%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
+    {% when 5 %}
+      {%- assign max_height = 195 -%}
+      {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
+  {% endcase %}
+
+  {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
+
+  <ul class="grid grid--uniform grid--view-items">
+    {% for product in collection.products limit: product_limit %}
+      <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+        {% include 'product-card-grid', max_height: max_height %}
+        <!-- <form action="/cart/add" method="post" id="product-form-{{ product.id }}">
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+          <div>
+            <button class="btn" type="submit" name="add">Add to cart</button>
+          </div>
+          <input type="hidden" name="return_to" value="pages/shop-add-on" />
+        </form> -->
+
+      </li>
+    {% else %}
+
+      {% for i in (1..product_limit) %}
+        <li class="grid__item .grid__item--{{section.id}} {{ grid_item_width }}">
+          <div class="grid-view-item">
+            <a href="#" class="grid-view-item__link">
+              <div class="grid-view-item__image">
+                {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+              </div>
+              <div class="h4 grid-view-item__title">{{ 'homepage.onboarding.product_title' | t }}</div>
+              <div class="grid-view-item__meta">
+                {% include 'product-price' %}
+              </div>
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+
+    <div style="margin-top:50px;" class="text-center">
+      <a href="https://aurabox.co/pages/shop" class="btn" style="width:138px; margin-right:10px;">
+        View All
+      </a>
+      <a href="https://aurabox.co/cart" class="btn btn--secondary" style="background-color:white; margin-left:10px;">
+        No, thanks
+      </a>
+    </div>
+
+</div>
+
+{% schema %}
+  {
+    "name": {
+      "en": "Featured collection1",
+      "de": "Featured Kategorie1",
+      "fr": "Collection vedette1"
+    },
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": {
+          "en": "Heading",
+          "de": "Titel",
+          "fr": "En-tête"
+        },
+        "default": {
+          "en": "Featured collection",
+          "de": "Featured Kategorie",
+          "fr": "Collection vedette"
+        }
+      },
+      {
+        "id": "collection",
+        "type": "collection",
+        "label": {
+          "en": "Collection",
+          "de": "Kategorie",
+          "fr": "Collection"
+        }
+      },
+      {
+        "type": "range",
+        "id": "grid",
+        "label": {
+          "en": "Products per row",
+          "de": "Produkte per Reihe",
+          "fr": "Produits par rangée"
+        },
+        "min": 2,
+        "max": 5,
+        "step": 1,
+        "default": 3
+      },
+      {
+        "type": "range",
+        "id": "rows",
+        "label": {
+          "en": "Rows",
+          "de": "Reihen",
+          "fr": "Rangées"
+        },
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 2
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "label": {
+          "en": "Show product vendors",
+          "de": "Produkt-Lieferanten anzeigen",
+          "fr": "Afficher les vendeurs"
+        },
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_view_all",
+        "label": {
+          "en": "Show 'View all' button",
+          "de": "'Alle anzeigen' Button anzeigen",
+          "fr": "Afficher le bouton “Tout voir”"
+        },
+        "default": false
+      }
+    ],
+    "presets": [
+      {
+        "name": {
+          "en": "Featured collection1",
+          "de": "Featured Kategorie1",
+          "fr": "Collection vedette1"
+        },
+        "category": {
+          "en": "Collection",
+          "de": "Kategorie",
+          "fr": "Collection"
+        }
+      }
+    ]
+  }
+{% endschema %}

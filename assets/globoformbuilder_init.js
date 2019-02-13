@@ -1,0 +1,1 @@
+var GPFBInstalled = true;

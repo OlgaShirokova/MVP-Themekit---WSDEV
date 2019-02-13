@@ -1,0 +1,19 @@
+<div id="customer-fields" {% unless customer %}data-registration="true"{% endunless %}>
+  {% form 'create_customer' %}
+    <input type="hidden" name="shop" value="{{ shop.permanent_domain }}">
+    <div class="fields"><!-- Fields loaded from server --></div>
+    <div class="form-footer"></div>
+    <script>
+      var Customr = {
+        baseUrl: "https://customr.heliumdev.com",
+        {% if customer %}
+          shopifyCustomer: {
+            id: {{ customer.id }},
+            token: {{ customer.metafields.customr_auth.token | json }}
+          }
+        {% endif %}
+      };
+    </script>
+    <script src="https://cdn-customr.heliumdev.com/assets/v2/embed.js"></script>
+  {% endform %}
+</div>
